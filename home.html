@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevByMon</title>
+    <link rel="icon" href="img/icon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+</head>
+<body id="home">
+    <div id="header-container"></div>
+
+<script>
+    fetch('header.html')
+    .then(res => res.text())
+    .then(html => {
+        document.getElementById('header-container').innerHTML = html
+    })
+</script>
+<section class="hp">
+<div class="homepage">
+    <h1 class="cpn">DevByMon</h1>
+</div>
+    <img src="img/Doraemon-High-Resolution-Desktop-Wallpaper.jpg" alt="zz" class="hp_img"> 
+    <p>Doraemon (ドラえもん) is a Japanese manga series written and illustrated by Fujiko F. Fujio [ja]. First serialized in 1969, the manga's chapters were collected in 45 tankōbon volumes published by Shogakukan from 1974 to 1996. The story revolves around an earless robotic cat named Doraemon, who travels back in time from the 22nd century to assist a boy named Nobita Nobi in his day-to-day life</p>
+
+</section>
+
+
+
+    <div id="product">
+        <div class="cards">
+            <article class="card">
+                <h2>
+                    Doraemon: Nobita's Art World Tales
+                </h2>
+                <figure class="card_media">
+                    <a href="https://en.wikipedia.org/wiki/Doraemon:_Nobita%27s_Art_World_Tales" target="_blank">
+                    <img src="img/mv2025.jpg" style="width:98%" alt="pic1" >
+
+                    </a>
+                    <figcaption class="card_text">Eiga Doraemon Nobita no Chikyū Shinfonī</figcaption>
+                </figure>
+                    <p>A 2025 Japanese animated fantasy science fiction adventure film. It is the 44th Doraemon feature film. It is directed by Yukiyo Teramoto from a screenplay by Satoshi Itо̄. It was released in theaters in Japan on March 7, 2025. The film celebrates the 45th anniversary of the Doraemon film series</p>
+
+            </article >
+            <article class="card">
+                <h2>
+                    Doraemon: Nobita's Earth Symphony
+                </h2>
+                <figure class="card_media">
+                    <a href="https://en.wikipedia.org/wiki/Doraemon:_Nobita%27s_Earth_Symphony" target="_blank">
+                    <img src="img/mv2024.jpg" alt="pic2" style="width:100%">
+
+                    </a>
+                    <figcaption class="card_text">Eiga Doraemon Nobita no Esekai Monogatari</figcaption>
+                </figure>
+                    <p>A 2024 Japanese animated musical fantasy science fiction adventure film. It is the 43rd Doraemon feature film. Directed by Kazuaki Imai from a screenplay by Teruko Utsumi, it was released theatrically in Japan on March 1, 2024</p>
+
+            </article>
+            <article class="card">
+                <h2>
+                    Doraemon: Nobita's Sky Utopia
+                </h2>
+                <figure class="card_media">
+                    <a href="https://en.wikipedia.org/wiki/Doraemon:_Nobita%27s_Sky_Utopia" target="_blank">
+                    <img src="img/mv2023.jpg" alt="pic3" style="width:100%">
+
+                    </a>
+                    <figcaption class="card_text">Eiga Doraemon Nobita to Sora no Utopia</figcaption>
+                    
+                </figure>
+                    <p>A 2023 Japanese animated science fiction adventure film. It is the 42nd Doraemon feature film. Directed by Takumi Doyama with a screenplay by Ryota Furusawa, it was released on 3 March 2023.</p>
+
+            </article>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

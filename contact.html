@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevByMon</title>
+    <link rel="icon" href="img/icon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="html" href="header.html">
+
+</head>
+<body id="contact">
+    <div id="header-container"></div>
+    <script>
+        fetch('header.html')
+        .then(res => res.text())
+        .then(html => {
+            document.getElementById('header-container').innerHTML = html
+        })
+    </script>
+    <div class="contact">
+        <h1>Contact us</h1>
+        <div class="contact_grid">
+            <div class="contact_info">
+                    <em>Visist us at:</em><br>
+
+                    <address><ul>
+                    <li>Metropolia University of Applied Sciences - Karamalmi Campus </li>
+                    <li>Karaportti 2</li> 
+                    <li>02340 ESPOO</li> 
+                    <li>Finland</li> 
+                    <li>
+                    Email: <strong><a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@metropolia.fi" target="_blank">info@metropolia.fi</a></strong>
+                    </li>
+                    <li>Phone: <strong>+358 401231233</strong></li>
+                </ul></address>
+            </div>
+            <div class="contact_map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19483.628512105675!2d24.72554683685303!3d60.2239906703496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df797cfe43cbb%3A0xb99a2c26d4df39ff!2sMetropolia%20University%20of%20Applied%20Sciences%20-%20Karamalmi%20Campus!5e1!3m2!1sen!2sfi!4v1762289499556!5m2!1sen!2sfi" width="600" height="450" ></iframe>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
